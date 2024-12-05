@@ -40,5 +40,27 @@ Clone the repository using:
            chromedriver.exe
      ```
 
+## Add Dependencies
+
+If you are using Maven, include the following dependencies in your `pom.xml` file:
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.6.0</version>
+    </dependency>
+</dependencies>
+```
+## Usage
+
+### Running the Test
+
+1. Navigate to the project directory and compile the code:
+
+   ```bash
+   javac -d bin src/main/java/Test.java
+
 
 
