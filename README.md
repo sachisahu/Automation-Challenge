@@ -61,6 +61,24 @@ If you are using Maven, include the following dependencies in your `pom.xml` fil
 
    ```bash
    javac -d bin src/main/java/Test.java
+   ```
+
+   ```base
+   java -cp bin Test
+```
+
+## Credentials
+
+Replace the following placeholder credentials in the `Test.java` file with valid ones:
+
+```java
+getEmail.sendKeys("sachi@test.com");
+getPassword.sendKeys("12345");
+```
+
+## Expected Behavior
+- The script will log in, add a product to the cart, and proceed to checkout.
+- Payment details will be autofilled, and the order will be completed.
 
 
 
