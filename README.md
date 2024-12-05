@@ -65,8 +65,7 @@ If you are using Maven, include the following dependencies in your `pom.xml` fil
 
    ```base
    java -cp bin Test
-```
-
+   ```
 ## Credentials
 
 Replace the following placeholder credentials in the `Test.java` file with valid ones:
@@ -79,6 +78,34 @@ getPassword.sendKeys("12345");
 ## Expected Behavior
 - The script will log in, add a product to the cart, and proceed to checkout.
 - Payment details will be autofilled, and the order will be completed.
+
+
+# Error Handling
+
+Handles exceptions such as:
+- `NoSuchElementException` for missing elements.
+- `TimeoutException` for slow responses.
+- `InterruptedException` during thread sleep.
+
+# Troubleshooting
+
+- **ChromeDriver version mismatch**: Ensure ChromeDriver matches your installed Chrome version.
+- **Timeout issues**: Check your internet connection or increase the timeout duration in `WebDriverWait`.
+- **Element not interactable**: Verify the element locators (e.g., XPath).
+
+# Contributing
+
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+
+# License
+
+This project is licensed under the MIT License.
+
+# Author
+
+Sachidanand Sahu
+
+
 
 
 
