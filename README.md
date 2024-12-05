@@ -19,22 +19,8 @@ Before running the project, ensure you have the following installed on your syst
 
 ### Clone the Repository
 Clone the repository using:
-```bash
-git clone https://github.com/your-username/selenium-automation-project.git
-cd selenium-automation-project
-## Download ChromeDriver
 
-1. **Download the Correct Version**  
-   - Visit the official [ChromeDriver download page](https://sites.google.com/chromium.org/driver/).
-   - Select the version that matches your Chrome browser version and operating system.
+   git clone https://github.com/your-username/selenium-automation-project.git
+   cd selenium-automation-project
 
-2. **Place ChromeDriver in Your Project**  
-   - After downloading, locate the `chromedriver.exe` file.  
-   - Move or copy it to the `src/test/resources/` directory of your project.  
-   - Ensure the directory structure looks like this:  
-     ```
-     src/
-       test/
-         resources/
-           chromedriver.exe
-     ```
+
