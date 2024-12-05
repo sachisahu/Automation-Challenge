@@ -26,7 +26,7 @@ Clone the repository using:
 ## Download ChromeDriver
 
 1. **Download the Correct Version**  
-   - Visit the official [ChromeDriver download page]( ```base https://sites.google.com/chromium.org/driver/ ```).
+   - Visit the official [ChromeDriver download page]( https://sites.google.com/chromium.org/driver/).
    - Select the version that matches your Chrome browser version and operating system.
 
 2. **Place ChromeDriver in Your Project**  
